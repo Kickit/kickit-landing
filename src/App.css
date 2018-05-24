@@ -30,7 +30,14 @@
 .github {
   display: flex;
   flex-direction: column;
+}
 
+.slanted {
+  background: rgba(179,220,237,1);
+  background: linear-gradient(to right, rgba(179,220,237,0.8) 0%, rgba(41,184,229,0.8) 50%, rgba(188,224,238,0.8) 100%);
+  height:500px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
 .home-header {
@@ -50,7 +57,7 @@
 }
 
 .home-usenow {
-  padding: 15%;
+  padding: 5%;
   height: 50VH;
 }
 

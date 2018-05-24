@@ -20,8 +20,10 @@ class Home extends React.Component {
   render () {
     return (
       <div className="home">
+        <div className='slanted'>
         <img src={logo} height={"111px"} width={"300px"} alt={""}/>
         <UseNow/>
+        </div>
         <Header/>
         <Github/>
         <Contribute/>
