@@ -18,8 +18,8 @@ class Header extends React.Component {
     const landingLink = "https://github.com/NickLewanowicz/kickit-landing"
 
     return (
-      <div className="github">
-        <h1>Our Development Stack</h1>
+      <div className="section github">
+        <h1>Our Codebase</h1>
         <Grid doubling container={true} textAlign='center' centered={true} columns={5}>
           <Grid.Column>
             <Card>

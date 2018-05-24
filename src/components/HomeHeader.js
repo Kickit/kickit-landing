@@ -15,9 +15,9 @@ class Header extends React.Component {
 
   render () {
     return (
-      <div className='home-header'>
+      <div className='section home-header'>
         <img src={logo} height={"111px"} width={"300px"} alt={""}/>
-        <Item.Group>
+        <Item.Group className="intro">
         <Item>
           <Item.Image src={stickman} size='small' />
           <Item.Content>
