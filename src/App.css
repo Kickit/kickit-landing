@@ -30,8 +30,13 @@
 .github {
   display: flex;
   flex-direction: column;
-  
+
 }
+
+.home-header {
+  margin: auto auto 5rem auto;
+  max-width: 500px;
+} 
 
 .circle {
   border-radius: 50%;
