@@ -19,7 +19,7 @@ class Header extends React.Component {
         <img src={logo} height={"111px"} width={"300px"} alt={""}/>
         <Item.Group>
         <Item>
-          <Item.Image src={stickman} size='tiny' />
+          <Item.Image src={stickman} size='small' />
           <Item.Content>
             <Item.Header as='b'>What is Kickit?</Item.Header>
             <Item.Description>
