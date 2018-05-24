@@ -49,6 +49,15 @@
   padding: 1rem;
 }
 
+.home-usenow {
+  padding: 15%;
+  height: 50VH;
+}
+
+.usenow-content {
+  margin-top: 10rem;
+}
+
 .section {
   margin: 3rem auto 2rem auto;
 }
