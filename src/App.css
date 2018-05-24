@@ -35,9 +35,23 @@
 
 .home-header {
   margin: auto auto 5rem auto;
-  max-width: 500px;
-  font-size: 1.2rem;
+  max-width: 700px;
+  font-size: 1.3rem;
 } 
+.intro {
+  background-color: rgba(194, 194, 194,0.25);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.home-contribute {
+  max-width: 700px;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.section {
+  margin: 3rem auto 2rem auto;
+}
 
 .circle {
   border-radius: 50%;

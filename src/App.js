@@ -20,6 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="bg">
         <div className="circle one">&nbsp;</div>
         <div className="circle two">&nbsp;</div>
         <div className="circle three">&nbsp;</div>
@@ -34,6 +35,7 @@ class App extends Component {
         <div className="circle twelve">&nbsp;</div>
         <div className="circle thirteen">&nbsp;</div>
         <div className="circle fourteen">&nbsp;</div>
+        </div>
         <MyRouter/>
       </div>
     );
