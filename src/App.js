@@ -1,5 +1,20 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from './components/Home'
 import './App.css';
+
+const MyRouter = () => (
+  <Router>
+    <div className="application">
+    <div className="nav-links">
+      {/* <Link to="/register"><Button color='yellow'>Register</Button></Link> */}
+    </div>
+    <div className="outlet">
+      <Route path="" component={Home} />
+    </div>
+    </div>
+  </Router>
+)
 
 class App extends Component {
   render() {
@@ -19,6 +34,7 @@ class App extends Component {
         <div className="circle twelve">&nbsp;</div>
         <div className="circle thirteen">&nbsp;</div>
         <div className="circle fourteen">&nbsp;</div>
+        <MyRouter/>
       </div>
     );
   }
