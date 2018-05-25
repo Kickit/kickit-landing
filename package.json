@@ -2,7 +2,7 @@
   "name": "kickit-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.kickit.us",
+  "homepage": "https://www.kickit.us",
   "dependencies": {
     "history": "^4.7.2",
     "react": "^16.3.2",
