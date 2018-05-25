@@ -2,7 +2,7 @@
   "name": "kickit-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nicklewanowicz.github.io/kickit-landing",
+  "homepage": "http://www.kickit.us",
   "dependencies": {
     "history": "^4.7.2",
     "react": "^16.3.2",
