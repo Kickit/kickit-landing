@@ -4,7 +4,7 @@ import { Grid, Card, Icon } from 'semantic-ui-react'
 import '../index.css';
 import 'semantic-ui-css/semantic.min.css';
 
-class Header extends React.Component {
+class Github extends React.Component {
   constructor () {
     super()
     this.state = {
@@ -83,4 +83,4 @@ class Header extends React.Component {
   }
 
 }
-export default Header;
+export default Github;
