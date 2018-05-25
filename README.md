@@ -1,4 +1,4 @@
-# Kickit Backend
+# Kickit Landing
 This repo will serve as the product/landing page for the Kickit Open Source Project Manager. This implementation has been done as a 'create-react-app' to increase its accessibility. This landing page will be live at http://www.kickit.us and act as a launch point to all other kickit domains and documentation including this repository.
 
 The landing page is a separate code base from the Kickit Web app to reduce the size of each codebase and chances requirement to build and reupload the webapp anytime the landing page changes or vise versa.
