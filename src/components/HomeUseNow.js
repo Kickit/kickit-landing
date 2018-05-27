@@ -34,11 +34,11 @@ class UseNow extends React.Component {
                             primary>
                             Use Kickit for Free
                         </Button>}
-                content='Currently the app isnt available online, if you would like to be notified when it becomes available sign up for our email list below'
+                content='Currently the app isnt available right now, an early release will be available in mid June 2018'
                 on='click'
                 hideOnScroll
             />
-
+            
             <Item.Description>
               <p>
               The last project managment tool you need. 
