@@ -31,11 +31,11 @@ class UseNow extends React.Component {
                 trigger={<Button 
                             size='massive' 
                             circular={true}
+                            href={`https://app.kickit.us/0/`}
                             primary>
-                            Use Kickit for Free
+                            Demo Kickit pre-Alpha Now
                         </Button>}
-                content='Currently the app isnt available right now, an early release will be available in mid June 2018'
-                on='click'
+                content='Kickit is in EARLY development and your are free to login to try navigate the UI and see what we are up to.'
                 hideOnScroll
             />
             
