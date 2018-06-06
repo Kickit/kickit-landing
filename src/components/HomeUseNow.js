@@ -31,7 +31,7 @@ class UseNow extends React.Component {
                 trigger={<Button 
                             size='massive' 
                             circular={true}
-                            href={`https://app.kickit.us/0/`}
+                            href={`https://app.kickit.us/`}
                             primary>
                             Demo Kickit pre-Alpha Now
                         </Button>}
