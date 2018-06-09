@@ -12,10 +12,10 @@ class Github extends React.Component {
   }
 
   render () {
-    const backendLink = "https://github.com/NickLewanowicz/kickit-backend"
-    const frontendLink = "https://github.com/NickLewanowicz/kickit-frontend"
-    const mobileLink = "https://github.com/NickLewanowicz/kickit-mobile"
-    const landingLink = "https://github.com/NickLewanowicz/kickit-landing"
+    const backendLink = "https://github.com/kickit/kickit-backend"
+    const frontendLink = "https://github.com/kickit/kickit-frontend"
+    const mobileLink = "https://github.com/kickit/kickit-mobile"
+    const landingLink = "https://github.com/kickit/kickit-landing"
 
     return (
       <div className="section github">

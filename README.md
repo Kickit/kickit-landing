@@ -8,7 +8,7 @@ The landing page is a separate code base from the Kickit Web app to reduce the s
 
 #### Run the following commands to install:
 
-- `git clone https://github.com/NickLewanowicz/kickit-landing`
+- `git clone https://github.com/kickit/kickit-landing`
 - `cd kickit-landing`
 - `yarn`
 - `yarn start`
