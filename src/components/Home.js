@@ -22,8 +22,8 @@ class Home extends React.Component {
       <div className="home">
         <div className='slanted'>
           <div className='nav'>
-            <Button basic href="https://app.kickit.us/login" target="_blank" color='blue'>Login</Button>
-            <Button href="https://app.kickit.us/register" target="_blank" color='yellow'>Register</Button>
+            <Button basic href="https://app.kickit.us/" target="_blank" color='blue'>Login</Button>
+            <Button href="https://app.kickit.us/" target="_blank" color='yellow'>Register</Button>
           </div>
         
         <img className="logo" src={logo} height={"111px"} width={"300px"} alt={""}/>

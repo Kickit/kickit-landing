@@ -7,7 +7,6 @@ const MyRouter = () => (
   <Router>
     <div className="application">
     <div className="nav-links">
-      {/* <Link to="/register"><Button color='yellow'>Register</Button></Link> */}
     </div>
     <div className="outlet">
       <Route path="" component={Home} />
