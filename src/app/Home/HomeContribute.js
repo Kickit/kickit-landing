@@ -1,10 +1,5 @@
 import React from 'react';
 import { Item, Image } from 'semantic-ui-react'
-import logo from '../logo.png'
-import stickman from '../stickman.png'
-
-import '../index.css';
-import 'semantic-ui-css/semantic.min.css';
 
 class Contribute extends React.Component {
   constructor () {

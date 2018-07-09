@@ -1,10 +1,6 @@
 import React from 'react';
 import { Item, Image, Button, Popup } from 'semantic-ui-react'
-import logo from '../logo.png'
-import stickman from '../stickman.png'
 
-import '../index.css';
-import 'semantic-ui-css/semantic.min.css';
 
 class UseNow extends React.Component {
   constructor () {
@@ -23,7 +19,7 @@ class UseNow extends React.Component {
 
   render () {
     return (
-      <div className='section home-usenow'>
+      <div className='home-usenow'>
         <Item.Group className="usernow-content">
         <Item>
           <Item.Content>

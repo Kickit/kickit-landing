@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Card, Icon } from 'semantic-ui-react'
 
-import '../index.css';
 import 'semantic-ui-css/semantic.min.css';
 
 class Github extends React.Component {

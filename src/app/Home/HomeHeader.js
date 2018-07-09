@@ -1,9 +1,6 @@
 import React from 'react';
 import { Item, Image } from 'semantic-ui-react'
-import stickman from '../stickman.png'
-
-import '../index.css';
-import 'semantic-ui-css/semantic.min.css';
+import stickman from '../../resources/logo_k.png'
 
 class Header extends React.Component {
   constructor () {
@@ -14,10 +11,10 @@ class Header extends React.Component {
 
   render () {
     return (
-      <div className='section home-header'>
+      <div className='home-header'>
         <Item.Group className="intro">
         <Item>
-          <Item.Image src={stickman} size='small' />
+          {/*<Item.Image src={stickman} size='small' />*/}
           <Item.Content>
             <Item.Header as='b'>What is Kickit?</Item.Header>
             <Item.Description>
