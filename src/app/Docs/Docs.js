@@ -105,6 +105,6 @@ class Docs extends React.Component {
       </div>
     )
   }
-
 }
+
 export default Docs;
