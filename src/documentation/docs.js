@@ -1,6 +1,6 @@
 export default {
   installation: {
-    gettingStarted: "https://gist.githubusercontent.com/NickLewanowicz/35c637dcd2f53b763b5aa3d303adb5e6/raw/e0968346ea50e7666fe33e7bab0ab5d3ad1a7001/Kickit_gettingStarted",
+    gettingStarted: "https://gist.githubusercontent.com/NickLewanowicz/35c637dcd2f53b763b5aa3d303adb5e6/raw/ca1fecdf3934331417fd40c7da0f8f543f9d7f06/Kickit_gettingStarted",
   },
   howToContribute: {
     devEnvironment: ""
@@ -8,7 +8,7 @@ export default {
   APIReference: {
     graphQL: ""
   },
-  // FAQ: {
-  // },
+  FAQ: {
+  },
 
 }
