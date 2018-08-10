@@ -24,13 +24,15 @@ class UseNow extends React.Component {
         <Item>
           <Item.Content>
             <Popup
-                trigger={<Button 
-                            size='massive' 
-                            circular={true}
-                            href={`https://app.kickit.us/`}
-                            primary>
-                            Demo Kickit pre-Alpha Now
-                        </Button>}
+                trigger={
+                  <Button 
+                      size='massive' 
+                      circular={true}
+                      href={`https://app.kickit.us/`}
+                      primary>
+                      Demo Kickit Alpha Now
+                  </Button>
+                }
                 content='Kickit is in EARLY development and your are free to login to try navigate the UI and see what we are up to.'
                 hideOnScroll
             />
